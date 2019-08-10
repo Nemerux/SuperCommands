@@ -1,0 +1,8 @@
+name: SuperCommands
+version: 1.0
+description: chuj dupa kurwa cipa
+main: pl.memexurer.supercommands.SuperCommands
+commands:
+  minerp:
+    usage: nie
+    description: nie
