@@ -1,8 +1,19 @@
 name: SuperCommands
-version: 1.0
-description: chuj dupa kurwa cipa
+version: twoja stara to jest cipa
+description: mam ja na jednego hita
+depend: [MineRPCore]
 main: pl.memexurer.supercommands.SuperCommands
 commands:
   minerp:
-    usage: nie
-    description: nie
+    usage: wale w nos i robie sos
+    description: no bo jestem kurwa boss
+  wsiadz:
+    aliases: [wsadz_chuja_do_pralki]
+    usage: pale znowu se gibona
+    description: jestem twardy nie mam zgona
+  parking:
+    usage: frajerowi lamie kosc
+    description: no bo mam juz kurwa dosc
+  drinks:
+    usage: cos
+    description: bos

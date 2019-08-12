@@ -1,0 +1,24 @@
+## SuperCommands - serio ostatni plugin?
+
+drinks: # Drinki
+  malibu:
+    name: 'Malibu'
+    colors: "#00ff00"
+    lore: 'Pyszny drink.'
+    effects:
+      - "SPEED 1 500" # efekt, siła, czas ( w sekundach )
+    price: 10
+
+
+shopkeepers: # Tutaj mozesz stworzyc sobie wlasnych sklepikarzy, z wlasnymi itemami itd.
+  handlowiec:
+    npc_name: "Handlowiec"
+    use_real_money: false # czy ma uzywac prawdziwych $$
+    inventory_title: "&7Nielegalne itemy" # nazwa inventory, nie moze byc powtarzana
+    npc_items:
+      illegal_ban:
+        type: "STONE"
+        name: 'Nielegalny ban.'
+        lore: 'Kliknij aby zakupic nielegalnego bana.'
+        command: 'ban %player%'
+        price: 0

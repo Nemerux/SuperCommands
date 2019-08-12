@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SuperCommands">
+    <output-path>$USER_HOME$/Desktop/serwwer serwer/plugins</output-path>
+    <root id="archive" name="SuperCommands.jar">
+      <element id="module-output" name="SuperCommands" />
+    </root>
+  </artifact>
+</component>
