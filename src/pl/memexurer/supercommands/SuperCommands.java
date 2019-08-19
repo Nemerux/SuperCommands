@@ -6,6 +6,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.Minecart;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.scheduler.BukkitRunnable;
 import pl.memexurer.supercommands.commands.DrinksCommand;
 import pl.memexurer.supercommands.commands.MineRpCommand;
 import pl.memexurer.supercommands.commands.ParkingCommand;
@@ -20,6 +21,7 @@ public class SuperCommands extends JavaPlugin {
     private static Economy econ;
 
     public void onEnable(){
+        setupEconomy();
         saveDefaultConfig();
         initWg();
         DrinkManager.load(this.getConfig());
